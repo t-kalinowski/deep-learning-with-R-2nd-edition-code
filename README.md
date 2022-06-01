@@ -2,11 +2,11 @@
 
 The repository contains just the code from the book "Deep Learning with R, 2nd Edition".
 
-Note that the code examples currently require the development versions of the reticulate, keras, tensorflow, and tfautoraph packages.
-You can install all the dependencies by running this R script at the terminal:
+You can install all the dependencies by cloning this repo and sourcing the `"install-r-tensorflow.R"` script, 
+either at the R console or the terminal:
 
 ```bash
-Rscript install-dev-r-tensorflow.R
+Rscript install-r-tensorflow.R
 ```
 
 Note: the install script assumes that R and CUDA drivers are already installed.
