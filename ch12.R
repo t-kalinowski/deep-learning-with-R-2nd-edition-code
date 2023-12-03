@@ -392,7 +392,7 @@ gradient_ascent_step <- tf_function(
 gradient_ascent_loop <-
   function(image, iterations, learning_rate, max_loss = -Inf) {
 
-    learning_rate %<>% as_tensor()
+    learning_rate %<>% as_tensor("float32")
 
     for(i in seq(iterations)) {
 
